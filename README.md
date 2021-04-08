@@ -1,6 +1,6 @@
 ## Terribly Tiny Tales - String Shortner Assignment
 
-[Demo Link](https://vaidikkamde.github.io/ttt-assignment-string-shortner/)
+[Demo Link](https://vaidikkamde.github.io/Terribly-Tiny-Tales-assignment-string-shortner/)
 
 ### About The Project
 

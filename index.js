@@ -17,8 +17,8 @@ class StringShortner {
     if (existingShort) {
       return existingShort;
     } else {
-      const len = long.length - 1;
-      const randomLen = Math.floor(Math.random() * len) + 3;
+      const len = long.length;
+      const randomLen = len>3 ? Math.floor(Math.random()*(len-3) + 3) : Math.floor(Math.random()*(len-1) + 1);
       const short = randomStr(randomLen);
       this.shortMap.set(short, long);
       this.longMap.set(long, short);
